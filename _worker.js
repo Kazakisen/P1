@@ -5,9 +5,9 @@ import { connect } from "cloudflare:sockets";
 // ============================================
 const DEFAULT_UUID = "";
 const DEFAULT_TROJAN_PASS = "";
-const DEFAULT_PROXY_IP = "https://galaxytunnel.github.io/PROXYIP.txt";
-const DEFAULT_PROXY_URL = "https://galaxytunnel.github.io/PROXYIP.txt";
-const DEFAULT_DOH_URL = "https://3k8ol3aoor.cloudflare-gateway.com/dns-query";
+const DEFAULT_PROXY_IP = "lelouch.abrdns.com";
+const DEFAULT_PROXY_URL = "";
+const DEFAULT_DOH_URL = "https://cloudflare-dns.com/dns-query";
 const DEFAULT_WS_PATH = "galaxy-tunnel";
 
 let userID = "";
