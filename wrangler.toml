@@ -1,0 +1,17 @@
+name = "galaxy-tunnel"
+main = "_worker.js"
+compatibility_date = "2024-09-23"
+compatibility_flags = [ "nodejs_compat" ]
+
+keep_vars = true
+
+[vars]
+UUID = ""
+# If TROJAN_PASS is empty, it automatically uses the UUID value for Trojan authentication
+TROJAN_PASS = ""
+PASSWORD = ""
+MASK_PAGE = "true"
+WS_PATH = "galaxy-tunnel"
+PROXYIP = "https://galaxytunnel.github.io/PROXYIP.txt"
+PROXY_LIST_URL = "https://galaxytunnel.github.io/PROXYIP.txt"
+DNS_RESOLVER_URL = "https://3k8ol3aoor.cloudflare-gateway.com/dns-query"

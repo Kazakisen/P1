@@ -1,0 +1,8 @@
+# Authorized outbound upstreams used by this Worker
+# Keep one hostname per line; blank lines and # comments are ignored.
+hk.blacknight.abrdns.com
+vc.blacknight.abrdns.com
+bun.blacknight.abrdns.com
+dig.blacknight.abrdns.com
+gog.blacknight.abrdns.com
+fast.blacknight.abrdns.com
